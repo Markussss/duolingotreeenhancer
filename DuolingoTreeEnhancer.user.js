@@ -246,6 +246,10 @@ css_style_hide_text = `{parent} {child}:not(:hover){
     flex-basis:100%
 }
 
+{child} span[data-test="hint-token"] {
+    color: #3c3c3c;
+}
+
 {child} ._1bkpY:not(:hover) {
     color: inherit;
 }
